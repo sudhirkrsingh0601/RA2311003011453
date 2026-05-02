@@ -1,6 +1,6 @@
 // logging_middleware/logger.ts
 
-const LOG_API = "http://20.207.122.201/evaluation-service/logs";
+const LOG_API = "/logs";
 
 export async function Log(
   stack: "frontend" | "backend",
